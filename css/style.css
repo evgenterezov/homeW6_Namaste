@@ -9,108 +9,85 @@ body {
 header {
     width: 1280px;
     margin-top: 130px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
 }
 .ferst_leter{
     font-family: "Montserrat" sans-serif ;
-    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 5px;
-    text-transform: uppercase;
     color: #898F99;
-    text-align: center;
 }
 h1 {
     font-family: "Montserrat" sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 59px;
     letter-spacing: 5px;
-    text-transform: uppercase;
     color: #0EC8CB;
-    text-align: center;
 }
 .two_letter {
     font-family:"PT Sans" sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    text-align: center;
-    text-transform: uppercase;
     color: #999999;
-    text-align: center; 
 }
+.main{
+    margin: 90px auto;
+}
+td:hover{
+    background: #0EC8CB;
+    border: 1px solid #0EC8CB;
+}
+td:hover p{
+    color: white;
+}
+td:hover h2 {
+    color: white;
+}
+
+.logo1:hover {
+    background-image: url(//img/anchor.white.png) no-repeat center center ;
+}
+/* .diamond:hover{
+    background-image: url(//img/diamond.white.png) no-repeat center center ; 
+} */
+
 .anchor {
-    position: absolute;
     width: 240px;
     height: 420px;
-    left: 160px;
-    top: 404px;
     background: #F7F7F7;
     border: 1px solid #ECECEC;
     text-align: center;
     padding-top: 55px;
-}
-.anchor:hover{
-    background: #0EC8CB;
-    border: 1px solid #0EC8CB;
-    box-sizing: border-box;
-    color: white;
 }
 .diamond {
-    position: absolute;
     width: 240px;
     height: 420px;
-    left: 400px;
-    top: 404px;
     background: #F7F7F7;
     border: 1px solid #ECECEC;
     text-align: center;
     padding-top: 55px;
-}
-.diamond:hover{
-    background: #0EC8CB;
-    border: 1px solid #0EC8CB;
-    box-sizing: border-box;
-    color: white;
 }
 .graphics {
-    position: absolute;
     width: 240px;
     height: 420px;
-    left: 640px;
-    top: 404px;
     background: #F7F7F7;
     border: 1px solid #ECECEC;
     text-align: center;
     padding-top: 55px;
-
-}
-.graphics:hover{
-    background: #0EC8CB;
-    border: 1px solid #0EC8CB;
-    box-sizing: border-box;
-    color: white;
 }
 .illustrations {
-    position: absolute;
     width: 240px;
     height: 420px;
-    left: 880px;
-    top: 404px;
     background: #F7F7F7;
     border: 1px solid #ECECEC;
     text-align: center;
     padding-top: 55px;
-}
-.illustrations:hover{
-    background: #0EC8CB;
-    border: 1px solid #0EC8CB;
-    box-sizing: border-box;
-    color: white;
 }
 h2 {
     padding-top: 50px;
@@ -123,13 +100,6 @@ h2 {
     font-size: 21px;
     line-height: 30px;
 }
-h2:hover{
-    background: #0EC8CB;
-    border: 1px solid #0EC8CB;
-    box-sizing: border-box;
-    color: white;
-
-}
 p {
     color: #777777;
     text-align: center;
@@ -138,10 +108,4 @@ p {
     font-weight: normal;
     font-size: 14px;
     line-height: 22px
-}
-p:hover{
-    background: #0EC8CB;
-    border: 1px solid #0EC8CB;
-    box-sizing: border-box;
-    color: white;
 }
